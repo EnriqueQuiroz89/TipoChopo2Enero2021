@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expediente digital</title>
+    <style>
+        .banner-expediente-digital {
+            background: #f3f6ff;
+            height: auto;
+        }
+
+        .container {
+            margin: 0 auto;
+            background: paleturquoise;
+            height: 80%;
+            max-width: 1000px;
+        }
+
+        .encabezado-expediente-digital {
+            font-size: 2rem;
+            color: black;
+            text-align: center;
+            background: transparent;
+            margin: 0 5rem;
+        }
+
+        .button-expediente {
+            background: linear-gradient(270deg, #4FDC6C 0%, #27C59E 50%, #4FDC6C 100%);
+            display: block;
+            margin: 20px auto;
+            width: 300px;
+            height: 50px;
+            border-radius: 15px;
+            color: white;
+            font-size: large;
+        }
+
+        .contenido-expediente-digital {
+            background: palegoldenrod;
+            margin: 0 auto 0 auto;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .img-desktop {
+            max-width: 70%;
+            height: auto;
+        }
+
+        /*Hamburguesa responsive*/
+        .item-on-flex {
+            width: 100%;
+            min-height: 40%;
+            background-color: palevioletred;            
+        }
+
+        .container-img-item {
+            max-width: 1000px;
+            width: 90%;
+            height: 60%;
+            margin: 0 auto;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            background:  paleturquoise;
+        }
+
+        .img-item {
+            max-width: 80%;
+            height: auto;
+        }
+
+        @media(max-width:700px) {
+            .encabezado-expediente-digital {
+                font-size: 2rem;
+                color: black;
+                text-align: center;
+                background: transparent;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="banner-expediente-digital">
+        <div class="container">
+            <div class="encabezado-expediente-digital">
+                <h2>Únete a nuestra red, genera tu expediente digital y gestiona tu salud</h2>
+                <span>Regístrate y obtén increibles beneficios.</span>
+                <button class="button-expediente">Crear expediente digital</button>
+
+            </div>
+            <div class="contenido-expediente-digital">
+                <img class="img-desktop" src="https://www.chopo.com.mx/media/banner-expediente-digital-desktop.png"
+                    alt="Imagen de una laptop">
+            </div>
+        </div>
+
+        <div class="item-on-flex">
+            <div class="container-img-item">
+                <img class="img-item"
+                    src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/menu-content/MX/hamburguesas-de-carne/big-mac.png"
+                    alt="">
+            </div>
+        </div>
+
+
+
+    </section>
+</body>
+
+</html>
